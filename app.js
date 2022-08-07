@@ -12,6 +12,10 @@ var startAud = document.querySelector(".start");
 var failAud = document.querySelector(".fail");
 var winAud = document.querySelector(".win");
 
+function proceed(){
+  $(".rules").fadeOut("slow");
+}
+
 $("img").css("display", "none");
 
 $(".btn-new").click(function() {
